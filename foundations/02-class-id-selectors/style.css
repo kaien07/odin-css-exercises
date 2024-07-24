@@ -1,0 +1,21 @@
+.no-1,
+.no-3, 
+.no-5 {
+    background-color: #f5789f;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#no-2 {
+    color: #2929f9;
+    font-size: 36px;
+}
+
+.no-3 {
+    font-size: 24px;
+}
+
+#no-4 {
+    background-color: #4aec88;
+    font-size: 24px;
+    font-weight: bold;
+}

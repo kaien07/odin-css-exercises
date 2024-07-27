@@ -2,18 +2,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}
+
 .para {
   font-size: 22px;
 }
 
+/* last rule defined wins */
 .small-para {
   font-size: 14px;
-  font-weight: 800;
-}
-
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
@@ -23,12 +24,14 @@ body {
   font-size: 20px;
 }
 
+/* last rule defined wins */
 .confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
+/* added specificity */
 .text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
